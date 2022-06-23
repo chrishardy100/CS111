@@ -1,4 +1,10 @@
-//this 
+/*This program takes 2 numbears as inputs
+* and outputs the bigger of the two numbers
+* 
+* 
+* @author Christopher Hardy
+
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;

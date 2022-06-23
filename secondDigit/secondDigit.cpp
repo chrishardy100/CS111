@@ -1,4 +1,11 @@
-//Returns the second digit from the leff form a number.
+/*
+* 
+* Returns the second digit from the leff form a number.
+* 
+* @author Christopher Hardy
+* 
+* 
+*/
 //Recusion
 #include <iostream>
 #include <cmath>
@@ -19,10 +26,16 @@ int main()
 
 int secondDigit(int x) {
 
+	int ans = x;
+
 	//If x < 100 return x % 10
-	if (x < 100) return x % 10;
+	if (x >= 100) secondDigit(ans / 10);
+
+	else if (x < 100) {
+		ans = ans % 10;
+	}
 
 	//Take off right most digit untill x < 100
-	else secondDigit(x / 10);
+	return x;
 }
 

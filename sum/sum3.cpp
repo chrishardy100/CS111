@@ -1,4 +1,12 @@
-//adds all numbers in an array between 100 & 1000
+
+
+/*
+* 
+* adds all numbers in an array between 100 & 1000
+* 
+* @author Christopher Hardy
+* 
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;

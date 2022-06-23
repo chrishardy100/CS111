@@ -1,4 +1,10 @@
-//Prints an array filled with random numbers;
+/*
+* This program prints an array of size 20 
+* and fills it with random numbers
+* 
+* @author Christopher Hardy
+* 
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;
